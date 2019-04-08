@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,900');
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css ');
+@import url('https://fonts.googleapis.com/css?family=Lora|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700i|Roboto+Slab');
+
+
+
+:root {
+    --container-width: 1200px;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-slab: 'Playfair Display', serif;
+    --font-dark-color: #303945;
+    --color-dark: #333;
+    --primary-color: #fe5619;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--roboto);
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: var(--container-width);
+    margin:0 auto;
+    display: grid;
+}
+.btn {
+    background-color: var(--primary-color);
+    display: inline-block;
+    color: #fff;
+    border-radius: 60px;
+}
+.btn.lg {
+    font-size: 18px;
+    font-weight: 900;
+    padding:17px 40px;
+}
+.btn.lg i{
+    margin-left: 10px;
+}
+.container h1 {
+    font-size: 50px;
+    color: var(--font-dark-color);
+}
+.text-center {
+    text-align: center;
+}
+.orangebar {
+    border:0;
+    border-bottom:3px solid var(--primary-color);
+    width: 77px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.whitebar {
+	border:0;
+    border-bottom:3px solid white;
+    width: 77px;
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.top-contact {
+    background-color: var(--color-dark);
+    padding:16px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.navbar {
+    background-color:white;
+    width: 100%;
+    padding: 20px 0;
+    display: grid;
+}
+.navbar .container {
+    grid-template-columns: 30% 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+.totop {
+        position: fixed;
+        background-color: var(--primary-color);
+        color: #fff;
+        padding: 10px 15px;
+        right: 10px;
+        bottom: 10px;
+        font-size: 25px;
+        z-index: 100;
+        border-radius: 3px;
+}
+.navbar .container .logo-cont{
+	font-weight: 900;
+	margin-left: 40px;
+	font-size: 20px;
+	color: #333;
+}
+.navbar .container .logo{
+    max-width: 100%;
+    height: 58px;
+}
+.navbar .container .menu-container {
+    text-align: right;
+    padding-right: 50px;
+}
+.navbar .container .menu-container .active {
+    color: var(--primary-color);
+}
+.navbar .container .menu-container  a{
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 40px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font: 900 11px var(--roboto);
+}
+.navbar .container .menu-container a:hover {
+    color: var(--primary-color);
+}
+.navbar .container .menu-container a i{
+    font-size: 4px;
+    margin-right: 4px;
+}
+
+.banner {
+    width: 100%;
+    display: block;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+.banner .caption {
+    position: absolute;
+    z-index: 2;
+    margin: 0 auto;
+    top: 50%;   
+    left: 50%;
+    text-align: center;
+    width: 70%;
+    transform: translate(-50%, -50%);
+}
+.banner .caption h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.banner .caption h1{
+    color: #fff;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 5px rgba(0,0,0,.3);
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.banner img {
+    width: 100%;
+    opacity: .4;
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pendahuluan {
+    padding:160px 0;
+    background: url('img/4.png')
+}
+.pendahuluan .container {
+    grid-template-columns: .8fr auto;
+    justify-content: space-between;
+    width: 77%;
+}
+.pendahuluan img  {
+    align-self: center;
+    width: 77%;
+    justify-self: end;
+}
+.pendahuluan h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    color: var(--font-dark-color)
+}
+ 
+.pendahuluan h3 b{
+    color: var(--primary-color);
+}
+.pendahuluan h3 {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-top: 20px;
+    line-height: 28px;
+    color: #999;
+}
+
+.produk {
+    border-top: 1px solid #eee;
+    padding: 100px 0;
+    background-color: #F6F6F6;
+}
+.produk .orangebar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.produk .category a:hover {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.produk .category a.active {
+    background-color: var(--primary-color);
+    color: #fff;
+    transition: all 0s;
+    border-color: var(--primary-color);
+}
+.produk .category a i{
+    margin-right: 2px;
+    font-size: 8px;
+}
+.produk .katalok .gambar img{
+    width: 100%;
+    height: 100%;
+    /* border: 1px dashed #eee; */
+    object-fit: cover;
+}
+.produk .katalok .gambar{
+    overflow: hidden;
+    box-shadow: 0 0 30px #ccc;
+    height: 200px;
+    padding: 20px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.produk .katalok .desc a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    margin-top: 16px;
+    display: block;
+}
+.produk .katalok .desc a i{
+    margin-right: 3px;
+    color: var(--primary-color);
+}
+.produk .katalok .desc  {
+    padding: 20px;
+}
+.produk .katalok .desc .keterangan {
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #999;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.produk .katalok .item:hover {
+    box-shadow: 0 1px 0px var(--primary-color);
+    transition: all .4s;
+    border-bottom-color: var(--primary-color);
+}
+.produk .katalok .item:hover .nama{
+    color: var(--primary-color);
+}
+.produk .katalok .desc .nama{
+    font-weight: 700;
+    color: var(--font-dark-color);
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.produk .katalok .item{
+    background-color: white;
+    border-radius: 3px;
+    overflow: hidden;
+    border:1px solid #eee;
+    transition: all .2s;
+
+}
+
+.produk .katalok {
+    display: none;
+    margin-top: 40px;
+    justify-content: center;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4, 250px);
+}
+.produk .katalok.active {
+    display: grid !important;
+}
+.produk .category a{
+    display: inline-block;
+    transition: all .3s;
+    background-color: #fff;
+    padding: 9px 30px;
+    border-radius: 55px;
+    margin:0 10px;
+    font-weight: 700;
+    border:1px solid #eee;
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.produk .category {
+    margin-top: 40px;
+    text-align: center;
+}
+.produk h1 {
+    text-align: center;
+}
+
+.keunggulan {
+    padding: 100px 0 70px;
+}
+.keunggulan h1 hr {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.keunggulan .container {
+    width: 85%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px 40px;
+    margin: 0 auto;
+}
+.keunggulan span {
+	display: block;
+    margin-bottom: 60px;
+    line-height: 31px;
+    font-size: 18px;
+}
+.keunggulan h1,
+.keunggulan span {
+    grid-column: 1 / 4;
+    text-align: center;
+    color: var(--font-dark-color);
+}
+.keunggulan .satu img{
+    width: 100%;
+}
+.keunggulan .satu {
+    display: grid;
+    grid-template-columns: 45px auto;
+    grid-column-gap: 20px;
+}
+.keunggulan p {
+    color: #999;
+    font-size: 14px;
+    line-height: 20px;
+}
+.keunggulan b {
+    margin-bottom: 16px;
+    color: #333;
+    display: block;
+}
+
+
+.footer {
+    background-color: var(--color-dark);
+    padding:80px 0 0;
+}
+.footer .container > div{
+    text-align: center;
+}
+.footer .container {
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+}
+.footer .copyr {
+    background-color: rgba(0,0,0,.2);
+    text-align: center;
+    margin-top: 60px;
+    color: #444;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 20px;
+}
+.footer h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+.footer .satu hr {
+    border:0;
+    border-bottom: 1px solid #444;
+    display: block;
+    margin: 40px auto 0;
+    width: 500px;
+
+}
+.footer  .satu p {
+    line-height: 22px;
+    color: #666;
+    font-size: 14px;
+    margin-top: 16px;
+}
+.footer .satu {
+    grid-column: 1 / 4;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.footer .tigakotak p {
+    font-size: 16px;
+    font-weight: 300;
+    color: inherit;
+    line-height: 26px;
+}
+.footer .tigakotak h3 i{
+    margin-top: 16px;
+}
+.footer .satu a:hover {
+    color: var(--primary-color);
+}
+.footer .satu a {
+    font-size: 14px;
+    color:#777;
+    margin:20px 14px 0px;
+    display: inline-block;
+}
+.footer .tigakotak h3{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border:1px solid #666;
+    margin:0 auto 20px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+.footer .tigakotak {
+    padding:0 40px;
+    color: #888
+} 
+.footer .tigakotak:hover {
+    color: #aaa
+}
+
+.peta {
+	display: grid;
+	grid-template-columns: 400px auto;
+	margin-top: 60px;
+	grid-template-rows: 400px;
+}
+.peta .kiri i{
+	margin-right: 20px;
+}
+.peta .kiri {
+	background-color: var(--primary-color);
+	color: white;
+	padding: 40px;
+	padding-top: 60px;
+}
+.peta .kiri span {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+
+}
+.peta .kiri p {
+	font-size: 16px;
+	margin-top: 30px;
+	line-height: 20px;
+}
+.peta .kiri h1 {
+	font-size: 40px;
+}
+
+.place-card {
+	margin-top: -200px;
+}
