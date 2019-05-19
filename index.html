@@ -62,7 +62,21 @@
         <div class="container">
             <div>
                 <h1>Our Product</h1>
-                <hr class="orangebar"/>
+                <hr class="orangebar"/><Br>
+                <span class="monyong">
+                	 <!-- We are dedicated to providing your hard to find industrial material needs.  <br> -->
+                	 <!-- Our expansive inventory in Flange, Tee, Reducer, Water mur, Double Nepple, Socket and Hose  .<br> -->
+                	Below are  some   preview   of   our products that we are providing, Please don't feel hesitate to contact us<br> about your company needed guarantees you will never have to wait for your material.</span><Br>
+                <style>
+                	.monyong {
+                		text-align: center;
+                		    color: var(--font-dark-color);
+                		    display: block;
+					    line-height: 31px;
+					    font-size: 18px;
+                		display: block;
+                	}
+                </style>
                 <div class="category" id="productNav">
                 </div>
             </div>
@@ -174,11 +188,11 @@
                         <div class="desc">
                             <p class="nama">${product.nama}</p>
                             <p class="keterangan">${product.keterangan}</p>
-                            <a href="i"><i class="fa fa-box-open"></i> 320 </a>
                         </div>
                     </div>
                 `;
             }).join('');
+            // <a href="i"><i class="fa fa-box-open"></i> 320 </a>
         	// 
         	document.querySelector('#produk .container').insertAdjacentHTML('beforeend', `
         		<div data-id="${kategori}" class="${ kategoriI < 1 ? 'katalok active' : 'katalok'}">
