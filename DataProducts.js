@@ -9,6 +9,28 @@
 [3:36 PM, 4/24/2019] Mujurmas Owner: Ya , sama yg pertama udh kamu buat itu flexible hose stainless steel*/
 
 const DataProducts = {
+    'Valve' : [
+        {
+            nama: 'Flanged Gate Valve',
+            keterangan: 'Size :   15 mm, And Also Available in 15 - 500 mm; Brand :   SN; Material :   Cast Iron, And Also Available in WCB, Stainless Steel; Usage :  Chemical Plant and Refinery',
+            gambar: 'flanged-gate-valve-500x500.jpg'
+        },
+        {
+            nama: 'Manual Ball Valve Brass 3/4 in BSP Ball Valve',
+            keterangan: 'This Sferaco straight ball valve uses a handle to control the flow of water. Made from brass ensures strength and reliability. A maximum operating temperate of 120°C.',
+            gambar: 'R1385644-01.jpg'
+        },
+        {
+            nama: 'Cast Steel Globe Valve, Size: 25-200 Mm',
+            keterangan: 'Size :   25-200 mm; Working Pressure :   40 Kg/cm2; Material :   Cast Steel; Temperature : 200 deg C',
+            gambar: 'globe-valve-500x500.jpg'
+        },
+        {
+            nama: 'Industrial Control Valve',
+            keterangan: ' Fluid Media : Air, Water, Gas; Connection Type : Flange; Corrosion Resistance :   Yes; Surface Treatment :  Coated; Usage :  Industrial Use',
+            gambar: 'industrial-control-valve-500x500.jpg'
+        },
+    ],
     'Flange': [
         {
             nama: 'Orifice Flange',
@@ -104,42 +126,42 @@ const DataProducts = {
             gambar: '0_8729c9d5-79f9-4905-adda-ff83b06eb667_720_698.jpg'
         }
     ],
-    'Socket': [
+    'Pipe': [
         {
-            nama: 'BLUE 240V 32 AMP 3 PIN INDUSTRIAL SITE PLUG & SOCKETS IP44 2P+E MALE/FEMALE',
-            keterangan: 'NDUSTRIAL SOCKET RANGE BLUE 240V 32A HEAVY DUTY IMPACT RESISTANT WITH A SPLASH PROOF RATING OF IP44 MAINLY USED FOR SITE WORK, WORKSHOPS AND WHAREHOUSE UNITS',
-            gambar: 'Custom800.jpg'
+            nama: 'Industrial Stainless Steel Pipe',
+            keterangan: 'Pipe Fluid : Water, Steam, Gas; Material Grade : SS316, SS316L, SS304, SS204; Type :   Welded, Seamless; Unit Length (meters) :   3 , 6, 12, 18; Material :   Stainless Steel',
+            gambar: 'industrial-stainless-steel-pipe-500x500.jpg'
         }, {
-            nama: '125A Industrial Socket Outlet , Waterproof Plug And Socket With Cover Protection',
-            keterangan: 'Our valued customers can purchase from us an extensive assortment of Industrial Connector. These products are manufactured by taking optimum quality materials, according to the industry accepted models.',
-            gambar: 'pl16558946-125a_industrial_socket_outlet_waterproof_plug_and_socket_with_cover_protection.jpg'
+            nama: 'Steam Pipe',
+            keterangan: 'Steam Pipes Sizing or Correct sizing of steam lines reduces pressure drop and radiation loss. Steam pipes that are undersized cause high pressure drop and result in steam starvation at the point of usage.',
+            gambar: 'steam-pipe-1510730501-3453125.jpg'
         }, {
-            nama: 'Gewiss Multi Socket Shore Power Adaptor GW64010',
-            keterangan: 'The Gewiss multi socket shore power adaptor GW64010 is ideal for busy marina power points. Double outlet socket with plug. 16amp 230v',
-            gambar: '0000023826.jpg'
+            nama: 'Round Carbon Steel Pipes',
+            keterangan: 'Shape :  Round; Color :  Black; Length  : 3m, >24m; Nominal Size :   1/2 inch, 3/4 inch, 1 inch, 2 inch, 3 inch, >3 inch; Surface Finish : Anodized',
+            gambar: 'carbon-steel-pipes-500x500.jpg'
         }, {
-            nama: 'IP44 2p+E 16A 32A 220V Multi-Function Industrial Plug and Socket 1013',
-            keterangan: 'Grounding: Standard Grounding; Type:   Without Switch;Rated Current:  32A; Shell Material: ABS PA66; Application:    Industrial; Function:   Ordinary Socket',
-            gambar: 'IP44-2p-E-16A-32A-220V-Multi-Function-Industrial-Plug-and-Socket-1013.jpg'
+            nama: 'Galvanised Iron Square Pipe',
+            keterangan: 'Unit Pipe Length :  9 meter; Material :   Galvanised Iron; Material Grade : IS277; Shape :  Square; Thickness :  1.6 Mm To 9.5 Mm',
+            gambar: 'gi-square-pipe-500x500.jpg'
         }
     ],
-    'Hose': [
+    'Plat': [
         {
-            nama: 'Flex-Flyte® L-9 Hose',
-            keterangan: 'This is a two-ply silicone coated fiberglass hose with a helically wound spring steel wire imbedded between the two-plies.',
-            gambar: '51507p.jpg'
+            nama: 'Plat Strip Stainless Steel 201/304',
+            keterangan: 'Stainless Steel adalah baja yang dikenal dengan baja tahan karat karena bisa terbuat dari  campuran antara Besi, Silicon, Nikel, Mangan, krom, Karbon dan juga molybdenum UNP Stainless Steel biasannya banyak digunakan untuk kebutuhan kontruksi,rangka dan banyak lagi.',
+            gambar: 'a465d0c6-79ae-4a65-9aad-23289e314ee7w.png'
         }, {
-            nama: 'UFD Clear Polyurethane Hose',
-            keterangan: 'This thermoplastic polyurethane hose reinforced with a wire helix is commonly used in chemical plants, paper mills, saw mills, sheet metal houses, flour and grain mills, and manufacturing facilities',
-            gambar: '51523p.jpg'
+            nama: 'PLAT TEMBAGA',
+            keterangan: '<M></M>ulai dari ketebalan 0.4mm sampai dengan 10mm untuk ukuran 1mx2m. sedangkan untuk ukuran 365mmx1200mm mulai dari ketebalan 0.05mm sampai 10mm. tembaga murni merupakan konduktor yang baik yang warna nya merah kejinggaan.',
+            gambar: '09121c2ebff8750758440f99a9756550.png'
         }, {
-            nama: 'RFH-W Rubber Hose',
-            keterangan: 'This hose is a thermoplastic rubber reinforced with a wire helix and an external polypropylene wearstrip',
-            gambar: '51533p.jpg'
+            nama: 'Plat Teflon',
+            keterangan: 'Nomor model: kualitas tinggi lembar teflon; Ketebalan: 0.1 untuk 200mm; penggunaan: industri kimia, makanan, bahan pelumas diri; Ptfe lembar Ukuran: 1000x1000mm, 1000x2000mm, dan dalam gulungan',
+            gambar: 'hot-sale-high-quality-teflon-sheets-made.jpg'
         }, {
-            nama: 'Vac-U-Flex® TPU Hose',
-            keterangan: 'This hose is made of 100% clear two-ply thermoplastic polyurethane material with a coated spring steel helix encapsulated and bonded to the hose jacket',
-            gambar: '51551p.jpg'
+            nama: 'Industrial MS Plate',
+            keterangan: 'Strong Construction, Rust Proof, Uniform Surface, Long Functional Life, Steel body, Smoother edges, Less maintenance, cut to size',
+            gambar: 'mild-steel-plate-500x500.png'
         }
     ],
 }
