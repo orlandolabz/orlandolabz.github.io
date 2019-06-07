@@ -11,6 +11,48 @@
 const DataProducts = {
     'Valve' : [
         {
+            nama: 'Float Valve for Water Trough',
+            keterangan: 'Great to be used in water tanks, water feeders, fountain products and many more water-supplying equipments.',
+            gambar: 'float_valve_for_water_trough_-_01.jpg'
+        },
+        {
+            nama: 'Balancing valve',
+            keterangan: 'Primary Competitive Advantages: Guarantee/Warranty, International Approvals, Price, Product Features, Product Performance, Prompt Delivery.',
+            gambar: 'B1137947192.jpg'
+        },
+        {
+            nama: 'Safety valve',
+            keterangan: 'Being a well-distinguished company in the market, we are into offering Pressure Safety Valve. Material : Carbon Steel; Pressure : High Pressure; Application : Industrial',
+            gambar: 'pressure-safety-valve-500x500.jpg'
+        },
+        {
+            nama: 'Globe valve',
+            keterangan: 'The SVF 405CSF flanged globe valves are linear motion valves with rounded globular shaped bodies. Globe valves have the ability to perform in systems that require frequent stroking with a wide range of extreme temperatures.',
+            gambar: '405CSF.png'
+        },
+        {
+            nama: 'Check valve',
+            keterangan: 'A check valve is a device that only allows the flow of fluids in one direction. They have two ports, one as an inlet for the media and one as the output for the media.',
+            gambar: 'LV6872.jpg'
+        },
+        {
+            nama: 'Butterfly valve',
+            keterangan: 'This wafer style butterfly valve is designed to maintain a seal against bi-directional pressure differential to prevent any backflow in systems designed for uni-directional flow.',
+            gambar: '77-B6-RWG4-4C.jpg'
+        },
+        {
+            nama: 'Air valve',
+            keterangan: 'We bring forth our vast industrial experience and expertise in this business, involved in offering high quality range of Single Orifice Air Valve.',
+            gambar: 'single-orifice-air-valve-500x500.jpg'
+        },
+        {
+            nama: 'Pressure Reducing Valve',
+            keterangan: 'Screwed BSPP Female, Direct Acting Pressure Reducing Valve for Water, Brass Diaphragm System, Brass Body & Components, Stainless Steel Seat, Adjustable Outlet Pressure between 0.5 and 6 Bar, Maximum Inlet Pressure 25 Bar.',
+            gambar: 'LV2941.jpg'
+        },
+        
+        
+        {
             nama: 'Flanged Gate Valve',
             keterangan: 'Size :   15 mm, And Also Available in 15 - 500 mm; Brand :   SN; Material :   Cast Iron, And Also Available in WCB, Stainless Steel; Usage :  Chemical Plant and Refinery',
             gambar: 'flanged-gate-valve-500x500.jpg'
@@ -140,9 +182,9 @@ const DataProducts = {
             keterangan: 'Shape :  Round; Color :  Black; Length  : 3m, >24m; Nominal Size :   1/2 inch, 3/4 inch, 1 inch, 2 inch, 3 inch, >3 inch; Surface Finish : Anodized',
             gambar: 'carbon-steel-pipes-500x500.jpg'
         }, {
-            nama: 'Galvanised Iron Square Pipe',
-            keterangan: 'Unit Pipe Length :  9 meter; Material :   Galvanised Iron; Material Grade : IS277; Shape :  Square; Thickness :  1.6 Mm To 9.5 Mm',
-            gambar: 'gi-square-pipe-500x500.jpg'
+            nama: 'Galvanise Steel Pipe',
+            keterangan: 'Ketebalan: 0.6-16mm, Bentuk: Bulat, Diameter luar: 20-400mm, Aplikasi: Pipa Struktur, Teknik: erw, Sertifikasi: ISO9001: 2000 Bersertifikat &amp; CE',
+            gambar: 'hot-dip-galvanized-welded-steel-pipe-galvanised.jpg'
         }
     ],
     'Plat': [

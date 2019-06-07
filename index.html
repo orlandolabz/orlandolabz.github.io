@@ -5,7 +5,11 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="index.css">
+    <script src="jq.js"></script>
 	<script src="scroll/smooth-scroll.js"></script>
+    <link rel="stylesheet" href="owl/owl.css">
+    <script src="owl/owl.js"></script>
+
 	<script>
 		var scroll = new SmoothScroll('a[data-scroll]', {
 			easing: 'easeInQuart'
@@ -13,6 +17,7 @@
 	</script>
 </head>
 <body id="top">
+ 
 
 	<!--  -->
 	<div class="top-contact">
@@ -193,15 +198,32 @@
                     </div>
                 `;
             }).join('');
-            // <a href="i"><i class="fa fa-box-open"></i> 320 </a>
         	// 
         	document.querySelector('#produk .container').insertAdjacentHTML('beforeend', `
-        		<div data-id="${kategori}" class="${ kategoriI < 1 ? 'katalok active' : 'katalok'}">
+        		<div data-id="${kategori}" class="katalok ${ kategoriI < 1 ? 'active' : ''}">
 					${productList}
                 </div>
         	`);
         })
-		
+		$(function() {
+            $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    items: 4,
+    // responsive:{
+    //     0:{
+    //         items:1
+    //     },
+    //     600:{
+    //         items:3
+    //     },
+    //     1000:{
+    //         items:5
+    //     }
+    // }
+})
+        })
 	</script>
 
 	
