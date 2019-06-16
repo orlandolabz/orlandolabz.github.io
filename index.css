@@ -305,7 +305,7 @@ a {
     background-color: #fff;
     padding: 9px 30px;
     border-radius: 55px;
-    margin:0 10px;
+    /* margin:0 10px; */
     font-weight: 700;
     border:1px solid #eee;
     color: #aaa;

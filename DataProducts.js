@@ -11,14 +11,14 @@
 const DataProducts = {
     'Valve' : [
         {
-            nama: 'Float Valve for Water Trough',
-            keterangan: 'Great to be used in water tanks, water feeders, fountain products and many more water-supplying equipments.',
-            gambar: 'float_valve_for_water_trough_-_01.jpg'
+            nama: 'Steam Trap Valve',
+            keterangan: 'steam traps combine reliability, simplicity and efficiency of operation; with just one moving part (a hardened stainless steel disc) they give a blast discharge with clean, tight shut-off. ',
+            gambar: 'spirax-sarco-td42-thermodynamic-steam-trap.jpg'
         },
         {
-            nama: 'Balancing valve',
-            keterangan: 'Primary Competitive Advantages: Guarantee/Warranty, International Approvals, Price, Product Features, Product Performance, Prompt Delivery.',
-            gambar: 'B1137947192.jpg'
+            nama: 'Strainer valve',
+            keterangan: 'A economical Y-type strainer with a stainless steel screen ideally suited for water applications to protect meters, pumps, valves and other pipeline equipment',
+            gambar: '1-2-inch-Y-type-strainer-valve.jpg_640x640.jpg'
         },
         {
             nama: 'Safety valve',
@@ -31,7 +31,7 @@ const DataProducts = {
             gambar: '405CSF.png'
         },
         {
-            nama: 'Check valve',
+            nama: 'Y-Stariner Valve',
             keterangan: 'A check valve is a device that only allows the flow of fluids in one direction. They have two ports, one as an inlet for the media and one as the output for the media.',
             gambar: 'LV6872.jpg'
         },
@@ -50,27 +50,26 @@ const DataProducts = {
             keterangan: 'Screwed BSPP Female, Direct Acting Pressure Reducing Valve for Water, Brass Diaphragm System, Brass Body & Components, Stainless Steel Seat, Adjustable Outlet Pressure between 0.5 and 6 Bar, Maximum Inlet Pressure 25 Bar.',
             gambar: 'LV2941.jpg'
         },
-        
-        
         {
             nama: 'Flanged Gate Valve',
             keterangan: 'Size :   15 mm, And Also Available in 15 - 500 mm; Brand :   SN; Material :   Cast Iron, And Also Available in WCB, Stainless Steel; Usage :  Chemical Plant and Refinery',
             gambar: 'flanged-gate-valve-500x500.jpg'
         },
         {
-            nama: 'Manual Ball Valve Brass 3/4 in BSP Ball Valve',
+            nama: 'Manual Ball Valve Brass BSP Ball Valve',
             keterangan: 'This Sferaco straight ball valve uses a handle to control the flow of water. Made from brass ensures strength and reliability. A maximum operating temperate of 120°C.',
             gambar: 'R1385644-01.jpg'
         },
         {
-            nama: 'Cast Steel Globe Valve, Size: 25-200 Mm',
+            nama: 'Check Valve',
+            // nama: 'Cast Steel Globe Valve, Size: 25-200 Mm',
             keterangan: 'Size :   25-200 mm; Working Pressure :   40 Kg/cm2; Material :   Cast Steel; Temperature : 200 deg C',
             gambar: 'globe-valve-500x500.jpg'
         },
         {
             nama: 'Industrial Control Valve',
             keterangan: ' Fluid Media : Air, Water, Gas; Connection Type : Flange; Corrosion Resistance :   Yes; Surface Treatment :  Coated; Usage :  Industrial Use',
-            gambar: 'industrial-control-valve-500x500.jpg'
+            gambar: 'Flo-Tite-Valves-Controls_0617_A58962_featured.jpg'
         },
     ],
     'Flange': [
@@ -206,5 +205,16 @@ const DataProducts = {
             gambar: 'mild-steel-plate-500x500.png'
         }
     ],
+    'Elbow': [
+        {
+            nama: 'Elbow Stainles Steel',
+            keterangan: 'Stainless Steel Elbow is ideal for those areas where high pressure, corrosive conditions and vibration exist. ',
+            gambar: 'stainless-steel-elbow.jpg'
+        }, {
+            nama: 'Steam Elbow',
+            keterangan: 'Due to their high performance and quality, these Cast Iron Steam Elbows are highly demanded in the market. These products are known for their rust resistance, chemical resistance and durability.',
+            gambar: 'cast-iron-steam-elbow-500x500 (1).jpg'
+        },
+    ]
 }
 
