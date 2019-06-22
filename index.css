@@ -368,12 +368,12 @@ a {
     background-color: #fff;
     padding: 9px 30px;
     border-radius: 55px;
-    /* margin:0 10px; */
+    margin:0 5px;
     font-weight: 700;
     border: 1px solid #eee;
     color: #aaa;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
     font-size: 12px;
 }
 

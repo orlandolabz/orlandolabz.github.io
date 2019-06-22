@@ -85,6 +85,16 @@ const DataProducts = {
             keterangan: '#Thermo Valve<br>Material Body : Cast Steel Connection : F/ E PN 40 Size : 1" - 4"'
         },
         {
+            nama: 'Thermo Ball Float Trap',
+            gambar: 'Uni_Klinger-Compressed-Air-trap.png',
+            keterangan: '#Thermo Valve<br>Steam used for secondary heating like Coils, vessels, heat exchangers etc, generate a lot of condensate post heat transfer. This large quantity of condensate can handle by Ball Float Trap.'
+        },
+        {
+            nama: 'Thermo Pressure Reducing Valve',
+            gambar: '1180_KitB 3.5 Bar pressure reducing valve_1.jpg',
+            keterangan: '#Thermo Valve<br>The maximum cold water inlet pressure designed for the Andris unit is 3.5 bar. Therefore this pressure reducing valve controls the water to not exceed this limit.'
+        },
+        {
             gambar: 'Die-Form-Rng.jpg',
             nama: 'Balanced Control Valve',
             keterangan: 'Temperature Control Valve, Most graphite-based seal designs create high-friction and stem effort during operation and many actuators may over-compensate causing inaccurate positioning of the plug or piston causing system inefficiency.'
@@ -95,16 +105,7 @@ const DataProducts = {
             keterangan: 'Temperature Control Valve, A thermostat consists of a sensor and a capillary tube, filled with liquid, and an adjusting cylinder. With temperatures above 170°C, a cooling unit must be fitted between the valve and the thermostat.'
         },
         
-        {
-            nama: 'Thermo Ball Float Trap',
-            gambar: 'Uni_Klinger-Compressed-Air-trap.png',
-            keterangan: '#Thermo Valve<br>Steam used for secondary heating like Coils, vessels, heat exchangers etc, generate a lot of condensate post heat transfer. This large quantity of condensate can handle by Ball Float Trap.'
-        },
-        {
-            nama: 'Thermo Pressure Reducing Valve',
-            gambar: '1180_KitB 3.5 Bar pressure reducing valve_1.jpg',
-            keterangan: '#Thermo Valve<br>The maximum cold water inlet pressure designed for the Andris unit is 3.5 bar. Therefore this pressure reducing valve controls the water to not exceed this limit.'
-        },
+        
         // 
         {
             nama: 'Steam Trap Valve',
