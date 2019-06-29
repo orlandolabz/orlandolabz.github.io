@@ -35,7 +35,7 @@ const DataProducts = {
                     <li>Lift Check Valve Tipe SUS 304, 316</li>
                 </ul>
             `,
-            gambar: 'globe-valve-500x500.jpg'
+            gambar: 'vs121.jpg'
         },
         {
             nama: 'Globe valve',
@@ -60,24 +60,24 @@ const DataProducts = {
             gambar: 'LV6872.jpg'
         },
         {
-            nama: 'Butterfly',
-            keterangan: `
-                <ul>
-                    <li>Butterfly Valve Water Type</li>
-                    <li>Butterfly Valve Stainless Steel (Untuk steam)</li>
-                </ul>
-            `,
-            gambar: '77-B6-RWG4-4C.jpg'
+            nama: 'Butterfly Valve Stainless Steel (steam)',
+            keterangan: `Butterfly Valve is a kind of simple structure, at the same time it can be used for low pressure pipeline medium switch control., serve as cut off and throttling in the pipeline. `,
+            gambar: '103-260-large.jpg'
+        }, 
+        {
+            keterangan: 'To cater the variegated demands of our prestigious clients, we are providing a wide range of Water Type Butterfly Valve.',
+            nama: 'Butterfly Valve Water Type',
+            gambar: 'water-type-butterfly-valve-500x500.jpg'
         },
         {
-            nama: 'Foot Valve',
-            keterangan: `
-                <ul>
-                    <li>Foot Valve Tipe Cast Iron</li>
-                    <li>Foot Valve Tipe SUS 304, 316</li>
-                </ul>
-            `,
-            gambar: 'foot-valve-20-mm-283-2f4-inch-29-500x500.jpg'
+            nama: 'Brass Foot Valve and Strainer',
+            keterangan: `When pumping from dams, pits, drains and other locations potentially full of debris it is always recommended to run a suction strainer. This unit also has a built in foot valve which aids in pump priming making your operation more reliable.`,
+            gambar: 'brass_inlet_foot_valve_strainer_1024x1024.jpg'
+        },
+        {
+            nama: 'Foot Valve Tipe Cast Iron',
+            keterangan: `The Quality Cast Iron Foot Valve with Strainer has a leather flapper valve to prevent the pump from losing its prime when shut down.`,
+            gambar: 'FOOT-VALVE_post.png'
         },
         {
             gambar: 'blowdown.jpg',
@@ -152,12 +152,12 @@ const DataProducts = {
         {
             nama: 'Pressure Reducing Valve',
             keterangan: 'Screwed BSPP Female, Direct Acting Pressure Reducing Valve for Water, Brass Diaphragm System, Brass Body & Components, Stainless Steel Seat, Adjustable Outlet Pressure between 0.5 and 6 Bar, Maximum Inlet Pressure 25 Bar.',
-            gambar: 'LV2941.jpg'
+            gambar: 'spirax-pressure-reducing-valve-500x500.jpg'
         },
         {
-            nama: 'Manual Ball Valve Brass BSP Ball Valve',
+            nama: 'Ball Valve Model Flange',
             keterangan: 'This Sferaco straight ball valve uses a handle to control the flow of water. Made from brass ensures strength and reliability. A maximum operating temperate of 120°C.',
-            gambar: 'R1385644-01.jpg'
+            gambar: 'www.jpg'
         },
   
         {
@@ -165,18 +165,6 @@ const DataProducts = {
             gambar: 'R1254079-01.jpg',
             keterangan: 'Parker 2-way solenoid valves are used in a wide variety of applications with or without pressure differential. Ideally suited for air, liquids and gases, these valves are available with a brass or stainless steel body.'
         },
-    ],
-    'Rubber Expansion Joint': [
-        {
-            nama: 'Q - Flex Single Sphere Joint',
-            gambar: 'qq.jpg',
-            keterangan: 'Applicable for suction and delivery (discharge); Provides sound and vibration isolation; Gaskets and packing are not required; Floating flanges allow for easy installation.'
-        },
-        {
-            nama: 'Q - Flex Twin Sphere Joint',
-            gambar: 'img221238-228x228.jpg',
-            keterangan: 'Material: EPDM & Neoprene; Brand: Q - Flex; Spec./ Class : Flanged End 10K, 20K, PN16, PN40, Ansi 150, Ansi 300'
-        }
     ],
     'Pressure Gauge': [
         {
@@ -194,14 +182,7 @@ const DataProducts = {
             keterangan: 'High quality case with bajonet ring NS 100/160, degree of protection IP 66, Nominal ranges - 40 °C…700 °C, further nominal ranges from - 200 °C...700 °C upon request, Case and wetted parts of stainless steel',
             gambar: 'T2-036_contao.png'
         },
-    ],
-    'Water Gauge': [
-        {
-            gambar: 'water-pressure-gauge-500x500.jpg',
-            nama: 'Water Gauge',
-            keterangan: '<ul><li>Safe in use</li><li>Flawless finish</li><li>Easy to check</li></ul>'
-        }
-    ],
+    ], 
     'Activator & Fittings': [
 
         {
@@ -324,6 +305,16 @@ const DataProducts = {
             gambar: '5ae6b-expansion-joint--single-with-tie-rods.jpg',
             nama: 'Expansion Joint with Tie Rods',
             keterangan: 'Bellows: SUS316; ​Component: Mild steel, SUS304, SUS316; Ending: Fixed flanges; Tie rod: 2 or 3; ​Inner sleeve: SUS304, SUS316'
+        },
+        {
+            nama: 'Q - Flex Single Sphere Joint',
+            gambar: 'qq.jpg',
+            keterangan: '#Rubber Expansion Joint <br>Applicable for suction and delivery (discharge); Provides sound and vibration isolation; Gaskets and packing are not required; Floating flanges allow for easy installation.'
+        },
+        {
+            nama: 'Q - Flex Twin Sphere Joint',
+            gambar: 'img221238-228x228.jpg',
+            keterangan: '#Rubber Expansion Joint <br>Material: EPDM & Neoprene; Brand: Q - Flex; Spec./ Class : Flanged End 10K, 20K, PN16, PN40, Ansi 150, Ansi 300'
         }
     ],
     'Water Meter': [
@@ -340,19 +331,21 @@ const DataProducts = {
     ],
     'Flow Meter': [
         {
-            nama: 'Flow Meter',
-            keterangan: `
-            Easiest-to-use Local Operator Interface (LOI), 
-            Simplified configuration at the meter,
-            Fully tested and ready to install
+            nama: 'Flow Meter Tipe Stainless Steel',
+            keterangan: ` Accuracy: 0.5%; Output: Pulse, current; Material: Stainless Steel; Type: Integral; Color: Blue; `,
+            gambar: 'SS304-stainless-steel-water-flow-meter-electromagnetic.jpg'
+        },
+        {
+            nama: 'Flow Meter Tipe Cast Iron',
+            keterangan: ` 
                 <ul>
-                    <li>Flow Meter Tipe Cast Iron</li>
-                    <li>Flow Meter Tipe Stainless Steel</li>
+                    <li>Dry-register mechanical turbine flow meter with cast iron body in sizes 2″ to 8″</li>
+                    <li>Suited for water treatment, remote totalizing, pacing electronic metering pumps</li>
+                    <li>Mechanical register requires no electrical power</li>
                 </ul>
             `,
-            gambar: '8750W-360.jpg'
+            gambar: 'wj-series.jpg'
         },
- 
     ],
     'Pipe': [
         {

@@ -177,7 +177,7 @@ a {
 
 .banner .caption h1 {
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     text-shadow: 4px 4px 5px rgba(0, 0, 0, .3);
     font-weight: 900;
     font-size: 60px;
@@ -262,7 +262,7 @@ a {
     width: 100%;
     height: 100%;
     /* border: 1px dashed #eee; */
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .produk .katalok .gambar {
@@ -366,9 +366,9 @@ a {
     display: inline-block;
     transition: all .3s;
     background-color: #fff;
-    padding: 9px 30px;
+    padding: 9px 16px;
     border-radius: 55px;
-    margin:0 5px;
+    margin:0 3px;
     font-weight: 700;
     border: 1px solid #eee;
     color: #aaa;
@@ -458,7 +458,7 @@ a {
     background-color: rgba(0, 0, 0, .2);
     text-align: center;
     margin-top: 60px;
-    color: #444;
+    color: #444 !important;
     font-weight: bold;
     font-size: 12px;
     padding: 20px;
@@ -482,7 +482,7 @@ a {
 
 .footer .satu p {
     line-height: 22px;
-    color: #666;
+    color: #fff;
     font-size: 14px;
     margin-top: 16px;
 }
@@ -529,11 +529,11 @@ a {
 
 .footer .tigakotak {
     padding: 0 40px;
-    color: #fff
+    color: #fff !important
 }
 
 .footer .tigakotak:hover {
-    color: #aaa
+    color: #fff
 }
 
 .peta {
