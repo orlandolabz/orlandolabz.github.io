@@ -62,7 +62,7 @@ const DataProducts = {
         {
             nama: 'Butterfly Valve Stainless Steel (steam)',
             keterangan: `Butterfly Valve is a kind of simple structure, at the same time it can be used for low pressure pipeline medium switch control., serve as cut off and throttling in the pipeline. `,
-            gambar: '103-260-large.jpg'
+            gambar: 'IMG-20190701-WA0007.jpg'
         }, 
         {
             keterangan: 'To cater the variegated demands of our prestigious clients, we are providing a wide range of Water Type Butterfly Valve.',
@@ -70,7 +70,7 @@ const DataProducts = {
             gambar: 'water-type-butterfly-valve-500x500.jpg'
         },
         {
-            nama: 'Brass Foot Valve and Strainer',
+            nama: 'Foot Valve Stainless Steel',
             keterangan: `When pumping from dams, pits, drains and other locations potentially full of debris it is always recommended to run a suction strainer. This unit also has a built in foot valve which aids in pump priming making your operation more reliable.`,
             gambar: 'brass_inlet_foot_valve_strainer_1024x1024.jpg'
         },
@@ -95,7 +95,7 @@ const DataProducts = {
             keterangan: '#Thermo Valve<br>The maximum cold water inlet pressure designed for the Andris unit is 3.5 bar. Therefore this pressure reducing valve controls the water to not exceed this limit.'
         },
         {
-            gambar: 'Die-Form-Rng.jpg',
+            gambar: 'IMG-20190701-WA0009.jpg',
             nama: 'Balanced Control Valve',
             keterangan: 'Temperature Control Valve, Most graphite-based seal designs create high-friction and stem effort during operation and many actuators may over-compensate causing inaccurate positioning of the plug or piston causing system inefficiency.'
         },
@@ -113,9 +113,9 @@ const DataProducts = {
             gambar: 'spirax-sarco-td42-thermodynamic-steam-trap.jpg'
         },
         {
-            nama: 'Strainer valve',
+            nama: 'Y-Strainer Valve',
             keterangan: 'A economical Y-type strainer with a stainless steel screen ideally suited for water applications to protect meters, pumps, valves and other pipeline equipment',
-            gambar: '1-2-inch-Y-type-strainer-valve.jpg_640x640.jpg'
+            gambar: 'IMG-20190701-WA0002.jpg'
         },
         {
             nama: 'Safety valve',
@@ -203,11 +203,11 @@ const DataProducts = {
             gambar: 'stainless-steel-forged-threaded-tee-500x500.jpg'
         },
         {
-            nama: 'Stainless Steel Double Nipple, Size: 3 Inch , For Structure Pipe',
+            nama: 'Stainless Steel Double Nipple, For Structure Pipe',
             keterangan: 'Size : 3 inch; Application : Structure Pipe; Thread Size : 2mm; Head Code :  Round; Length : Sch40.',
             gambar: 'stainless-steel-double-nipples-500x500.jpg'
         }, {
-            nama: 'Double Nepple Chrome 3/4" ONDA ',
+            nama: 'Double Nepple Chrome ONDA ',
             keterangan: 'Double Nepple Double Drat 3/4"; 100% Chrome Plated Brass; 100% Merk Onda ASLI; Kuat & Tahan Lama',
             gambar: '20363381_f5c3e124-bac6-42cc-8ec8-4d25dcc24d07_800_800.jpg'
         }, {
@@ -245,7 +245,7 @@ const DataProducts = {
             keterangan: 'Hydraulic Pipe,Gas Pipe,Structure Pipe; Surface Finishing:  Polished; Material: Brass',
             gambar: 'brass-pneumatic-reducer-500x500.jpg'
         }, {
-            nama: 'Butt Weld Reducer, Size: 1/8-48 Inch',
+            nama: 'Butt Weld Reducer',
             keterangan: 'Type: Seamless / ERW / Welded, ANSI B 16.9 ,Also Available Dimension Standard B 16.25 , B 16.28,MSS SP-43,SP-48,SP59',
             gambar: 'butt-weld-reducer-500x500.jpg'
         }, {
@@ -352,10 +352,6 @@ const DataProducts = {
             nama: 'Industrial Stainless Steel Pipe',
             keterangan: 'Pipe Fluid : Water, Steam, Gas; Material Grade : SS316, SS316L, SS304, SS204; Type :   Welded, Seamless; Unit Length (meters) :   3 , 6, 12, 18; Material :   Stainless Steel',
             gambar: 'industrial-stainless-steel-pipe-500x500.jpg'
-        }, {
-            nama: 'Steam Pipe',
-            keterangan: 'Steam Pipes Sizing or Correct sizing of steam lines reduces pressure drop and radiation loss. Steam pipes that are undersized cause high pressure drop and result in steam starvation at the point of usage.',
-            gambar: 'steam-pipe-1510730501-3453125.jpg'
         }, {
             nama: 'Round Carbon Steel Pipes',
             keterangan: 'Shape :  Round; Color :  Black; Length  : 3m, >24m; Nominal Size :   1/2 inch, 3/4 inch, 1 inch, 2 inch, 3 inch, >3 inch; Surface Finish : Anodized',
