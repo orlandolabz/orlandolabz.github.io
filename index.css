@@ -628,4 +628,7 @@ width: 100%;
 .footer .satu p {
     width: 88%;
 }
+.footer .satu hr {
+    display: none;
+}
 }
