@@ -82,7 +82,7 @@ const DataProducts = {
         {
             gambar: 'blowdown.jpg',
             nama: 'Thermo Blow Down Valve',
-            keterangan: '#Thermo Valve<br>Material Body : Cast Steel Connection : F/ E PN 40 Size : 1" - 4"'
+            keterangan: '#Thermo Valve<br>Material Body : Cast Steel Connection : F/ E PN 40 '
         },
         {
             nama: 'Thermo Ball Float Trap',
@@ -137,7 +137,7 @@ const DataProducts = {
         {
             nama: 'Ball Float Valve',
             gambar: 'ball-float-valve-500x500.jpg',
-            keterangan: 'Size	15 mm to 80 mm; MOC	SS 202 / 304 / 316; Type	Ball Float Valve'
+            keterangan: 'MOC	SS 202 / 304 / 316; Type	Ball Float Valve'
         },
         {
             nama: 'Industrial Control Valve',
@@ -184,8 +184,20 @@ const DataProducts = {
         },
     ], 
     'Activator & Fittings': [
-
         {
+            nama: 'Reducer SUS las',
+            keterangan: 'material : stainless steel; body type : welded; Reducer besi; reducer las; untuk sambungan; berbagai macam ukuran',
+            gambar: '13b40935-438e-40d0-b168-1ca7fbbddad5.jpg'
+
+        }, {
+            nama: 'Elbow steam las',
+            keterangan: ' Fitting ini sering digunakan dalam industri gas bumi, industri minyak bumi dan sistem pembuangan. ',
+            gambar: '62f37c92-d656-45fa-8451-01c1884a367d.jpg'
+        }, {
+            nama: 'Elbow SUS sch las',
+            keterangan: 'Fitting Bs atau Blacksteel ini banyak sekali digunakan dalam sistem industri karena fitting ini hanya memerlukan sedikit pemeliharaan.; material : stainless steel; body type: welded; ',
+            gambar: 'ac4c119b-c35a-412a-9c04-853e7f890040.jpg'
+        }, {
             nama: 'Stainless  Tee, Structure Pipe And Gas Pipe',
             keterangan: 'Stainless Steel Reducing Tee, Structure Pipe And Gas Pipe; Application: Structure Pipe, Gas Pipe, Hydraulic Pipe, Chemical Fertilizer Pipe, Pneumatic Connections',
             gambar: 'stainless-steel-reducing-tee-500x500.jpg'
@@ -199,38 +211,17 @@ const DataProducts = {
             gambar: 'stainless-steel-socket-weld-tee-500x500.jpg'
         }, {
             nama: 'Vishal Stainless Steel Forged Threaded Tee',
-            keterangan: 'Thread Size: 3M; Brand: Vishal; Form: S/W And SCRD; Material : Stainless Steel; Grade : 304N',
+            keterangan: 'Brand: Vishal; Form: S/W And SCRD; Material : Stainless Steel; Grade : 304N',
             gambar: 'stainless-steel-forged-threaded-tee-500x500.jpg'
         },
         {
             nama: 'Stainless Steel Double Nipple, For Structure Pipe',
-            keterangan: 'Size : 3 inch; Application : Structure Pipe; Thread Size : 2mm; Head Code :  Round; Length : Sch40.',
+            keterangan: 'Application : Structure Pipe; Head Code :  Round; Length : Sch40.',
             gambar: 'stainless-steel-double-nipples-500x500.jpg'
         }, {
-            nama: 'Double Nepple Chrome ONDA ',
-            keterangan: 'Double Nepple Double Drat 3/4"; 100% Chrome Plated Brass; 100% Merk Onda ASLI; Kuat & Tahan Lama',
-            gambar: '20363381_f5c3e124-bac6-42cc-8ec8-4d25dcc24d07_800_800.jpg'
-        }, {
-            nama: 'Fitting Double Nepple Elbow Drat Tee Drat',
-            keterangan: 'Tersedia juga tipe : Drat Dalam / Drat Luar / Kombinasi Drat Dalam x Luar; Bahan Besi dan Stainless Steel',
-            gambar: 'b24ef09751511d6fbbedee6416e9dbe6_440x440.jpg'
-        }, {
-            nama: 'Double Nepple 2 Inch 2" Drat Galvanis',
-            keterangan: 'Doubel nipple Galvanis; Tersedia Ukuran: 1/2 inch, 3/4 inch, 1 inch, 1.1/4 inch, 1.1/2 inch, 2 inch',
+            nama: 'Double Nepple  Drat Galvanis',
+            keterangan: 'Doubel nipple Galvanis',
             gambar: '0_8729c9d5-79f9-4905-adda-ff83b06eb667_720_698.jpg'
-        },
-        {
-            nama: 'watermur 3/4" galvanis/ water mur 3/4" besi',
-            keterangan: '3/4"; galvanis; drat keduanya.',
-            gambar: '16403067_6078a37d-5bf2-4c7b-8b8d-365f8c84d1f6_614_460.jpg'
-        }, {
-            nama: 'WATER MUR PVC',
-            keterangan: 'Water mur ini biasa digunakan pada pemasangan pompa sumur dangkal untuk mengecilkan saluran hisap dari mesin pompa 1 inci ke dalam pipa ukuran 1/2 inci',
-            gambar: 'VLOK_WATER_MUR_PVC_DRAT_LUAR_1_X_1_2_WATER_MUR_POMPA_UNION_S.png.webp'
-        }, {
-            nama: 'WATER MUR BESI GALVANIS 6 INCI',
-            keterangan: 'Water mur besi galvanis; Koneksi drat dalam standard pipa pada kedua sisi nya; Material besi dilapis galvanis; Cocok untuk aneka kebutuhan instalasi air, angin, konstruksi, industri hingga rumah tangga',
-            gambar: '2017_12_29T12_04_27_07_00.jpg.webp'
         }, {
             nama: 'Union Watermur',
             keterangan: 'Tersedia berbagai jenis material Union Water Mur seperti Mild Steel dan Stainless Steel serta Connection BSPT Threaded dan Ansi 150#',
@@ -273,7 +264,7 @@ const DataProducts = {
             gambar: 'orifice-flanges-500x500.jpg'
         }, {
             nama: 'Long Weld Neck Flange',
-            keterangan: 'Covered in ASME B16.5 – which covers Pipe Flanges and Flanged Fittings for size NPS ½” to 24” for above NPS 26” to 60” it should be as per ASME B16.47.',
+            keterangan: 'Covered in ASME B16.5 – which covers Pipe Flanges and Flanged Fittings for  for above NPS 26” to 60” it should be as per ASME B16.47.',
             gambar: 'carbon-steel-long-weld-neck-flange-52-500x500.jpg'
         }, {
             nama: 'Blind Flanges',
@@ -293,7 +284,7 @@ const DataProducts = {
             gambar: 'F7605722-01.jpg',
             nama: 'Limit Switch Box',
             keterangan: `
-                Width: 88mm; Brand: RS Pro; Minimum Operating Temperature: -20°C; Maximum Operating Temperature: +80°C; Terminal Type: Terminal Strip; IP Rating: IP67; Dimensions: 112 x 88 x 93 mm; `
+                Brand: RS Pro; Minimum Operating Temperature: -20°C; Maximum Operating Temperature: +80°C; Terminal Type: Terminal Strip; IP Rating: IP67;`
         }
     ],
     'Expansion Joint': [
@@ -321,12 +312,12 @@ const DataProducts = {
         {
             nama: 'Water Meter Hot/Cold Tipe Cast Iron',
             keterangan: 'DURABLE MATERIAL--this water meter is made from the highest quality materials, resistant to corrosion and condensation deposits;meter cover is made of brass, the bearing elements are made of quality steel, wear-resistant synthetic stones, and other elements made of modern plastics.',
-            gambar: 'asdsad.jpg'
+            gambar: '270745a5-0c4d-4de2-af4c-7a81cb91395d.jpg'
         },
         {
             nama: 'Water Meter Hot/Cold Tipe Brass',
             keterangan: 'DURABLE MATERIAL--this water meter is made from the highest quality materials, resistant to corrosion and condensation deposits;meter cover is made of brass, the bearing elements are made of quality steel, wear-resistant synthetic stones, and other elements made of modern plastics.',
-            gambar: 'asdsad.jpg'
+            gambar: 'b79c7887-5f56-4ebf-8c26-9a0df03a6a14.jpg'
         },
     ],
     'Flow Meter': [
@@ -339,7 +330,7 @@ const DataProducts = {
             nama: 'Flow Meter Tipe Cast Iron',
             keterangan: ` 
                 <ul>
-                    <li>Dry-register mechanical turbine flow meter with cast iron body in sizes 2″ to 8″</li>
+                    <li>Dry-register mechanical turbine flow meter with cast iron body</li>
                     <li>Suited for water treatment, remote totalizing, pacing electronic metering pumps</li>
                     <li>Mechanical register requires no electrical power</li>
                 </ul>
@@ -354,11 +345,11 @@ const DataProducts = {
             gambar: 'industrial-stainless-steel-pipe-500x500.jpg'
         }, {
             nama: 'Round Carbon Steel Pipes',
-            keterangan: 'Shape :  Round; Color :  Black; Length  : 3m, >24m; Nominal Size :   1/2 inch, 3/4 inch, 1 inch, 2 inch, 3 inch, >3 inch; Surface Finish : Anodized',
+            keterangan: 'Shape :  Round; Color :  Black; Length  : 3m, >24m; Surface Finish : Anodized',
             gambar: 'carbon-steel-pipes-500x500.jpg'
         }, {
             nama: 'Galvanise Steel Pipe',
-            keterangan: 'Ketebalan: 0.6-16mm, Bentuk: Bulat, Diameter luar: 20-400mm, Aplikasi: Pipa Struktur, Teknik: erw, Sertifikasi: ISO9001: 2000 Bersertifikat &amp; CE',
+            keterangan: 'Bentuk: Bulat, Aplikasi: Pipa Struktur, Teknik: erw, Sertifikasi: ISO9001: 2000 Bersertifikat &amp; CE',
             gambar: 'hot-dip-galvanized-welded-steel-pipe-galvanised.jpg'
         }
     ],
@@ -369,11 +360,11 @@ const DataProducts = {
             gambar: 'a465d0c6-79ae-4a65-9aad-23289e314ee7w.png'
         }, {
             nama: 'PLAT TEMBAGA',
-            keterangan: '<M></M>ulai dari ketebalan 0.4mm sampai dengan 10mm untuk ukuran 1mx2m. sedangkan untuk ukuran 365mmx1200mm mulai dari ketebalan 0.05mm sampai 10mm. tembaga murni merupakan konduktor yang baik yang warna nya merah kejinggaan.',
+            keterangan: 'Tembaga murni merupakan konduktor yang baik yang warna nya merah kejinggaan.',
             gambar: '09121c2ebff8750758440f99a9756550.png'
         }, {
             nama: 'Plat Teflon',
-            keterangan: 'Nomor model: kualitas tinggi lembar teflon; Ketebalan: 0.1 untuk 200mm; penggunaan: industri kimia, makanan, bahan pelumas diri; Ptfe lembar Ukuran: 1000x1000mm, 1000x2000mm, dan dalam gulungan',
+            keterangan: 'Nomor model: kualitas tinggi lembar teflon; penggunaan: industri kimia, makanan, bahan pelumas diri.',
             gambar: 'hot-sale-high-quality-teflon-sheets-made.jpg'
         }, {
             nama: 'Industrial MS Plate',
